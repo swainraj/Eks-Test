@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: wanderlust
+data:
+  REACT_APP_BACKEND_URL: "http://ALB_DNS/api"
